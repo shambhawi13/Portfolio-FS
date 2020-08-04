@@ -1,0 +1,29 @@
+{
+  "name": "Refritrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shambhawi13/Refritrack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shambhawi13/Refritrack/issues"
+  },
+  "homepage": "https://github.com/shambhawi13/Refritrack#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.10",
+    "sequelize": "^6.3.3"
+  }
+}
