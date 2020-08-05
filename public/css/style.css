@@ -1,10 +1,24 @@
 .brand-logo{
     font-family: 'Abril Fatface', cursive;
+    padding-left: 10px !important;
+}
+
+.nav-menu{
+    font-weight: 600;
 }
 
 main{
     background-image: url(https://cutewallpaper.org/21/website-background-images-hd/High-Resolution-Hd-Website-Background-Hd-Wallpapers-.jpg);
 }
+
+.about-para{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.first-letter {
+    font-size: 35px;
+    line-height: 70px;
+  }
 
 .nav-wrapper{
     background-color: #BBF0F3;
@@ -54,3 +68,30 @@ main{
  .carousel{
      height: 200px !important;
  }
+
+
+	i.circle {
+		font-size: 18px;
+		line-height: 42px;
+		color: #fff;
+		background-color: #999;
+		text-align: center;
+	}
+	.circle {
+		position: relative;
+        margin-right: 16px;
+        margin-bottom: 16px;
+		width: 42px;
+		height: 42px;
+		overflow: hidden;
+		display: inline-block;
+		vertical-align: middle;
+    }
+
+    .medium-blog a{
+        color: white;
+    }
+    
+    footer{
+        opacity: 0.8;
+    }
