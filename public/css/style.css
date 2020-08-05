@@ -2,6 +2,10 @@
     font-family: 'Abril Fatface', cursive;
 }
 
+main{
+    background-image: url(https://cutewallpaper.org/21/website-background-images-hd/High-Resolution-Hd-Website-Background-Hd-Wallpapers-.jpg);
+}
+
 .nav-wrapper{
     background-color: #BBF0F3;
     background-image: linear-gradient(315deg, #BBF0F3 0%, #F6D285 74%);
