@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./css/style.css">
+    <title>About Shambhawi</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#email">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/shambhawi-kumari/">LinkedIn</a></li>
+        <li class="divider"></li>
+        <li><a href="https://github.com/shambhawi13/">Github</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo teal-text text-darken-2">Shambhawi Kumari</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="/" class="teal-text text-darken-2">About</a></li>
+                <li><a href="/dashboard" class="teal-text text-darken-2">Portfolio</a></li>
+                <li><a href="/contact" class="teal-text text-darken-2">Contact</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger teal-text text-darken-2" href="#!" data-target="dropdown1">Repo<i
+                            class="material-icons right teal-text text-darken-2">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img
+                        src="data:image/jpeg;base64,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">
+                </div>
+                <a href="#user"><img class="circle" src="assets/profile.jpg"></a>
+                <a href="#name"><span class="black-text name">Shambhawi Kumari</span></a>
+                <a href="#email"><span class="email">shambhawi.kumari1393@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="/"><i class="material-icons">question_answer</i>About Me</a></li>
+        <li><a href="/contact"><i class="material-icons">contacts</i>Contact</a></li>
+        <li><a href="/dashboard"><i class="material-icons">cloud</i>All Projects</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Info</a></li>
+        <li><a class="waves-effect waves-light btn social github" href="https://github.com/shambhawi13/"><i
+                    class="fa fa-github"></i> github</a></li>
+    </ul>
+
+    <!-- nav end -->
+
+    <!-- main content -->
+    <div class="container front-end-container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card card-animation">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="/assets/shoppinator.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator teal-text text-darken-4"><strong>Shoppinator</strong> <i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://github.com/shambhawi13/Shoppinator" target="_blank" class="black-text"><i
+                                    class="fa fa-github"></i>Github</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Shoppinator<i
+                                class="material-icons right">close</i></span>
+                        <p>Shoppinator simplifies the search experience and creates a one-stop location for
+                            everything.<br>
+                            - Instead of searching each item and tracking on personal notes, Shoppinator creates a
+                            platform to help users to just give the link to the image of his choice. eg: a
+                            workplace/livingspace and we will take care of processing the image and suggesting users of
+                            different items that he would like to buy. <br>
+                            - Users need not track and search items one by one. <br>
+                            - It provides detail on both online purchase as well as nearby stores based on the user's
+                            choice.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card card-animation">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="/assets/weather-image.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator teal-text text-darken-4"><strong> Weather Dashboard</strong><i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://github.com/shambhawi13/Weather-Dashboard" target="_blank"
+                                class="black-text"><i class="fa fa-github"></i>Github</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Weather Dashboard<i
+                                class="material-icons right">close</i></span>
+                        <p>As a user, I can visit this application to view wheather report of selected cities. I can get
+                            the following details: <br>
+
+                            - Retrieve priviously saved weather details of the cities I have searched. It uses
+                            localStorage behind the scene to keep record of cities. <br>
+                            - Used OpenWeather API to retrieve weather data. <br>
+                            - I can get forecast of next 5 days. <br>
+                            - Multiple cities can be searched.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card card-animation">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="/assets/quiz.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator teal-text text-darken-4"><strong>JS Quiz Game</strong><i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://github.com/shambhawi13/quiz-game" target="_blank" class="black-text"><i
+                                    class="fa fa-github"></i>Github</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">JS Quiz Game<i
+                                class="material-icons right">close</i></span>
+                        <p>This application is written in pure Javascript, HTML & CSS which is a five minutes timer
+                            based quiz application. It contains following featues:</p>
+                        <ul>
+                            <li>- 10 questions with 4 option. Any one of the options are correct.</li>
+                            <li>- You get 5 minutes to answer all question.</li>
+                            <li>- One correct answers gets you 10 points</li>
+                            <li>- One wrong answer lowers your score by 5 points and deducts timer by 10sec.</li>
+                            <li>- If you dont know the anwer of a question, you can goto next question by clicking
+                                "Next" Button.</li>
+                            <li>- If you reach last question before time is over, you can submit directly from "Submit
+                                button".</li>
+                            <li>- If you want to review any answered question, you can click "Prev" button</li>
+                            <li>- After 5 min is over, you get to see total score. Enter the initials to save the score.
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

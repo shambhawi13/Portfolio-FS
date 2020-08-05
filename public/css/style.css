@@ -1,3 +1,7 @@
+.brand-logo{
+    font-family: 'Abril Fatface', cursive;
+}
+
 .nav-wrapper{
     background-color: #BBF0F3;
     background-image: linear-gradient(315deg, #BBF0F3 0%, #F6D285 74%);
@@ -41,4 +45,8 @@
 
  .content{
     font-family: 'Open Sans', sans-serif;
+ }
+
+ .carousel{
+     height: 200px !important;
  }
