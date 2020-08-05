@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>About Shambhawi</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#email">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/shambhawi-kumari/">LinkedIn</a></li>
+        <li class="divider"></li>
+        <li><a href="https://github.com/shambhawi13/">Github</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo teal-text text-darken-2">Shambhawi Kumari</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="/" class="teal-text text-darken-2">About</a></li>
+                <li><a href="/dashboard" class="teal-text text-darken-2">Portfolio</a></li>
+                <li><a href="/contact" class="teal-text text-darken-2">Contact</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger teal-text text-darken-2" href="#!" data-target="dropdown1">Repo<i
+                            class="material-icons right teal-text text-darken-2">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img
+                        src="data:image/jpeg;base64,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">
+                </div>
+                <a href="#user"><img class="circle" src="assets/profile.jpg"></a>
+                <a href="#name"><span class="black-text name">Shambhawi Kumari</span></a>
+                <a href="#email"><span class="email">shambhawi.kumari1393@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="/"><i class="material-icons">question_answer</i>About Me</a></li>
+        <li><a href="/contact"><i class="material-icons">contacts</i>Contact</a></li>
+        <li><a href="/dashboard"><i class="material-icons">cloud</i>All Projects</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Info</a></li>
+        <li><a class="waves-effect waves-light btn social github" href="https://github.com/shambhawi13/"><i
+                    class="fa fa-github"></i> github</a></li>
+    </ul>
+
+    <!-- nav end -->
+
+    <!-- main content -->
+    <div class="container">
+        <div class="row ">
+            <div class="col s12">
+
+                <div class="card">
+                    <div class="card-content">
+                        <h5 class="card-title text-info"><strong>Portfolio</strong></h5>
+                        <hr>
+                        <!--row 1-->
+                        <div class="row">
+                            <div class="col s12 m6">
+                                <div class="card card-animation front-end">
+                                    <div class="card-image">
+                                        <img src="/assets/Front-End-Development.jpg">
+                                        <span class="card-title"></span>
+                                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                                class="material-icons">add</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>Front-end Projects</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m6">
+                                <div class="card card-animation front-end">
+                                    <div class="card-image">
+                                        <img src="/assets/angular1.png">
+                                        <span class="card-title"></span>
+                                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                                class="material-icons">add</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>Front-end Projects </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col s12 m6">
+                                <div class="card card-animation front-end">
+                                    <div class="card-image">
+                                        <img src="/assets/react.png">
+                                        <span class="card-title"></span>
+                                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                                class="material-icons">add</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>React Projects</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m6">
+                                <div class="card card-animation front-end">
+                                    <div class="card-image">
+                                        <img
+                                            src="data:image/jpeg;base64,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">
+                                        <span class="card-title"></span>
+                                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                                class="material-icons">add</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>MERN Projects</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col s12 m6">
+                                <div class="card card-animation front-end">
+                                    <div class="card-image">
+                                        <img src="/assets/node.jpg">
+                                        <span class="card-title"></span>
+                                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                                class="material-icons">add</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>Node Projects</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6">
+                                <div class="card card-animation front-end">
+                                    <div class="card-image">
+                                        <img src="/assets/web.jpg">
+                                        <span class="card-title"></span>
+                                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                                class="material-icons">add</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>Web development Projects</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
