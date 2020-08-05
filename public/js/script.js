@@ -17,6 +17,10 @@ $(document).ready(function () {
     $('.front-end').on('click',function(){
         window.location.href = '/frontend';
     });
+    
+    $('.node-project').on('click',function(){
+        window.location.href = '/node';
+    });
 
     $('#contact-form').on("submit",function(event){
         event.preventDefault();

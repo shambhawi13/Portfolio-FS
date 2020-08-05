@@ -28,4 +28,9 @@ module.exports = function (app) {
     app.get("/frontend", function (req, res) {
         res.sendFile(path.join(__dirname, "../public/frontEnd.html"));
     });
+
+    // loads frontend projects page 
+    app.get("/node", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/nodeProjects.html"));
+    });
 };
