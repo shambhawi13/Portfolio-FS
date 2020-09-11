@@ -99,3 +99,7 @@ main{
     .pad-bottom{
         padding-bottom: 4.5%;
     }
+
+    .fs-image{
+        height: 400px;
+    }
