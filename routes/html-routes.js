@@ -29,6 +29,16 @@ module.exports = function (app) {
         res.sendFile(path.join(__dirname, "../public/frontEnd.html"));
     });
 
+    // loads react projects page 
+    app.get("/react", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/reactProjects.html"));
+    });
+
+    // loads fs projects page 
+    app.get("/fullstack", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/fsProjects.html"));
+    });
+
     // loads frontend projects page 
     app.get("/node", function (req, res) {
         res.sendFile(path.join(__dirname, "../public/nodeProjects.html"));

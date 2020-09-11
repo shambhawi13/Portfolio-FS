@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>About Shambhawi</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content light-blue lighten-5">
+        <li><a href="#email">Email</a></li>
+        <li class="divider"></li>
+        <li><a href="https://www.linkedin.com/in/shambhawi-kumari/">LinkedIn</a></li>
+        <li class="divider"></li>
+        <li><a href="https://github.com/shambhawi13/">Github</a></li>
+        <li class="divider"></li>
+        <li><a href="https://drive.google.com/file/d/1DXcJTZdgNrdJXd8yCEbqwDSRsmDeu2kv/view?usp=sharing">Resume</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo teal-text text-darken-2">Shambhawi Kumari</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down nav-menu">
+                <li><a href="/" class="teal-text text-darken-2">About</a></li>
+                <li><a href="/dashboard" class="teal-text text-darken-2">Portfolio</a></li>
+                <li><a href="/contact" class="teal-text text-darken-2">Contact</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger teal-text text-darken-2" href="#!" data-target="dropdown1">Repo<i
+                            class="material-icons right teal-text text-darken-2">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img
+                        src="data:image/jpeg;base64,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">
+                </div>
+                <a href="#user"><img class="circle" src="assets/profile.jpg"></a>
+                <a href="#name"><span class="black-text name">Shambhawi Kumari</span></a>
+                <a href="#email"><span class="email">shambhawi.kumari1393@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="/"><i class="material-icons">question_answer</i>About Me</a></li>
+        <li><a href="/contact"><i class="material-icons">contacts</i>Contact</a></li>
+        <li><a href="/dashboard"><i class="material-icons">cloud</i>All Projects</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Info</a></li>
+        <li><a class="waves-effect waves-light btn social github" href="https://github.com/shambhawi13/"><i
+                    class="fa fa-github"></i> github</a></li>
+        <li><a class="waves-effect waves-light btn social github"
+                href="https://drive.google.com/file/d/1DXcJTZdgNrdJXd8yCEbqwDSRsmDeu2kv/view?usp=sharing"><i
+                    class="fa fa-file-text-o"></i> Resume</a></li>
+    </ul>
+
+    <!-- nav end -->
+
+    <!-- main content -->
+    <main>
+        <div class="container front-end-container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card card-animation">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="/assets/clicky.gif">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4"><strong>Clicky Game</strong> <i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://github.com/shambhawi13/Clicky-Game" target="_blank" class="black-text"><i
+                                        class="fa fa-github"></i>Github</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Clicky Game<i
+                                    class="material-icons right">close</i></span>
+                            <p>This is a memory game. Project is built with technologies like HTML, CSS, Bootstrap, Javascript, React
+                            </p>
+                            <p>
+                                The application dynamically reads all images from Assets folder and displays as card. On click of each image, score will be calculated. The user's score is incremented when clicking an image for the first time. The user's score is reset to 0 if they click the same image more than once
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6">
+                    <div class="card card-animation">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="/assets/emp-directory.gif">
+                        </div>
+                        <div class="card-content">
+                            <span
+                                class="card-title activator teal-text text-darken-4"><strong>Employee Directory</strong><i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://github.com/shambhawi13/Employee-directory" target="_blank"
+                                    class="black-text"><i class="fa fa-github"></i>Github</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Employee Directory<i
+                                    class="material-icons right">close</i></span>
+                            <p>An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.Given a table of random users, when the user loads the page, a table of employees should render. The user should be able to:
+
+                                Sort the table by at least one category
+                                Filter the users by at least one property.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card card-animation">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="/assets/portfolio copy.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4"><strong> React Portfolio</strong><i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://github.com/shambhawi13/React-based-portfolio" target="_blank" class="black-text"><i
+                                        class="fa fa-github"></i>Github</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">React Portfolio<i
+                                    class="material-icons right">close</i></span>
+                            <p>In Progress: This website contains details of the author's portfolio. You can navigate to various section to view projects, github link, linkedIn link and connect with the auther using Contact page. Node mailer is used to send email to the author and also send acknowledgement mail to sender
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

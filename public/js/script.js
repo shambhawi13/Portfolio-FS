@@ -22,6 +22,14 @@ $(document).ready(function () {
         window.location.href = '/node';
     });
 
+    $('.react-project').on('click', function(){
+        window.location.href = '/react';
+    });
+
+    $('.fs-project').on('click', function(){
+        window.location.href = '/fullstack';
+    });
+
     $('#contact-form').on("submit",function(event){
         event.preventDefault();
         console.log("form submitted");

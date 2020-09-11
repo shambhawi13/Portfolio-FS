@@ -95,3 +95,7 @@ main{
     footer{
         opacity: 0.8;
     }
+
+    .pad-bottom{
+        padding-bottom: 4.5%;
+    }
