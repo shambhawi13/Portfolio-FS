@@ -107,3 +107,7 @@ main{
     .angular-image{
         height: 300px;
     }
+
+    .bold{
+        font-weight: bold;
+    }
