@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>About Shambhawi</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content light-blue lighten-5">
+        <li><a href="#email">Email</a></li>
+        <li class="divider"></li>
+        <li><a href="https://www.linkedin.com/in/shambhawi-kumari/">LinkedIn</a></li>
+        <li class="divider"></li>
+        <li><a href="https://github.com/shambhawi13/">Github</a></li>
+        <li class="divider"></li>
+        <li><a href="https://drive.google.com/file/d/1DXcJTZdgNrdJXd8yCEbqwDSRsmDeu2kv/view?usp=sharing">Resume</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo teal-text text-darken-2">Shambhawi Kumari</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down nav-menu">
+                <li><a href="/" class="teal-text text-darken-2">About</a></li>
+                <li><a href="/dashboard" class="teal-text text-darken-2">Portfolio</a></li>
+                <li><a href="/contact" class="teal-text text-darken-2">Contact</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger teal-text text-darken-2" href="#!" data-target="dropdown1">Repo<i
+                            class="material-icons right teal-text text-darken-2">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img
+                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QEA8PDw8PEA8PDw8PDRAPDw8PDw8NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDjcZFRktNy0rKysrKzcrLSsrKzcrKysrNysrKzctLSsrKysrKy0rKysrKysrKysrLSsrKysrK//AABEIAKkBKQMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIDBQQH/8QALhAAAgECBgEEAQQCAwEAAAAAAAERAjEhQXGBscFRAxJhkfAycqHhgtEisvGS/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A/cCkCAiIAECABICApIpABbJsCYFJNgQEUkQEBEBAUgULAmQREUgAoCQAQ1f64AGwIcjI5bgEiumBSBSBABqq71MyNV3qAE7LcgbID7SIiKiAgKSIAECICIgkBJgTACKSAiQSRRSBSQRSRA2BpsyTACkiKQFAwQAMgRMCGcDLZZbgTYSRICIJ8fYAbrd9zA13erMtgUkRT+YlH3ERGVQSRAREwAQKQAQIgKSYEURMCYREQSBEiBAREQEwKQAf6AsvooAUZKfASAlV0uAKrpcARZbgUgRU9MCp6YBJMkikoa7vVmSbADTstzJOy3AD0CAjKoiABbAmQFICElCgZIAikBJgRSEkwBkUkACgkkAtmSYSAgINgaT6MNjk9uzMgISSKfH2BDU+uDLKp8LgCAJH5ZRDT0zLqKnPR8ATYBJSBELw+X/BhsDo3go+cTEk7LcAPRkkBIyqAiAWZKSKiIgAUBSAENQE7gAsCkCJZ/mYEs9OwIlcIKQJgUgwNPLQyLy07AByexkpAo1TcyNNzKQENXS4CSbAJF23Bk3hv0ASNPT4CPP9h7vAEDIGBr1LvVmTVaxerM4L54AXZbgDqKQPRFBIIgWAEBEQNgakyyyACIikCGpmSquwICkgIU7/AJmZbJZ6doCYESAiJsy2Ubb4MMastOzICAoHUBqm5luf9FRdGJAZApFwvl/wBQM4bvEw2OW/QAwIkpAiiL/ROrx/ZkDp6jxerwOY+o8XqzMgISOET5yD3fC/kI9EUBSRUBSAC/8AQC+lwAFluBSUgK6ZkV0wAiqeLKQkCJ2W4C7LcAJZ6doo8/Qe4CJPFahJK61KJgUF+fADVlp2ZkvcAGsnquzA5PVdlHnDkCouZH3eMOQbAhrvsuEZGq+y4QALtv0D++A9z/LABqjPR8GRoz0fAQASX0U+PvMB9S71fJgfd5MsDdTwW5kXZbh7X4f0B6TAiRFRFJkDVT64MjV0uDICRA2BqnpmWVL4fBkBkCkXgADOC3Mtk7LcCYFJLgohV1qZdRK61AamZBhIDJJDgvngy2BtPB6rswyVnquzICEjSpL3ePvMCa8/WY11ZWwXBga77LhADAJFJRL8xARI1Q1jng9DFVX/AIVGej4AqnJkgkCkY84DVg2li1m+kc2wOrqwUYXxzuc9xqst+TMgeoSuA03IoCSgpAaulwZKSActzI5bhADT0+DJNlJRFXdgNV2BmRdluWGvAe4AkU76doyxWenaABputQjYPd4/sCYDIANWWnbMmqstO2ACrPVdmBdX5kAQ0XRkaLoEvrywCTXqX2XCMysvth7vOIEL/Tu+EZYv9P8Ak+EBk1Rno+AiL/Wf9A6vGGgADJsGBv1f1Vavkwb9RTVVHl6LExgvl/wA1Wp35Ml7mE/AHqjTcGwpuRS2ZIJKGSJ4fJmSDc4b7mSy3MyUICgdXgC/IH1Hi9TEjXd6gDApHC9wBI1S4nTtGXUVOenaAn+eTJEsWBFHn+ybi33mZkDpVVgssOzmxry07ZmQiK4pKG9MAqq2XhAaous+DNTn84L03ijACASaqhWxeGL+V4AIzsjfvinDy8c7I5N+Rn/j/k+EAMJCTVKTn4TYAVr4/H+ydeSwX8vVmGB19aqW14b0ucma9Z/8qv3PkxIE2UmoSSd5nDJB7/hf/KA9QabgKzIrIGmBRVdLgzJqrpcGQF23MydMtjmA09Pgwap6fAMAGu71Km5V5AZF2W4C7LcDI02q07QM3RbcDmVN1qiKm61CBsJGoAGvLTtmJOvqdnNgKeD1XZg2rPVdmGBr0ro5nT08zNd2BmR9R47U/wDVAzXqX2p4QHOTT/Sv3PhAdHb/ABA4mvTz/bVwA0Xf7auAOckJr0r7PgA9b9VX7nyc2zr6uWhzAarU78mZN1Wp3MAf/9k=">
+                </div>
+                <a href="#user"><img class="circle" src="assets/profile.jpg"></a>
+                <a href="#name"><span class="black-text name">Shambhawi Kumari</span></a>
+                <a href="#email"><span class="email">shambhawi.kumari1393@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="/"><i class="material-icons">question_answer</i>About Me</a></li>
+        <li><a href="/contact"><i class="material-icons">contacts</i>Contact</a></li>
+        <li><a href="/dashboard"><i class="material-icons">cloud</i>All Projects</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Info</a></li>
+        <li><a class="waves-effect waves-light btn social github" href="https://github.com/shambhawi13/"><i
+                    class="fa fa-github"></i> github</a></li>
+        <li><a class="waves-effect waves-light btn social github"
+                href="https://drive.google.com/file/d/1DXcJTZdgNrdJXd8yCEbqwDSRsmDeu2kv/view?usp=sharing"><i
+                    class="fa fa-file-text-o"></i> Resume</a></li>
+    </ul>
+
+    <!-- nav end -->
+
+    <!-- main content -->
+    <main>
+        <div class="container front-end-container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card card-animation">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator angular-image" src="https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/b4/f9/97/b4f9973c-6e49-35c7-bbff-042976b291ef/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4"><strong>Splunk</strong> <i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="#" target="_blank" class="black-text"><i class="fa fa-github"></i>Github</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Splunk<i
+                                    class="material-icons right">close</i></span>
+                            <p>
+                                Web application built for automating project-specific configurations for other teams
+                                that rely upon to build their products, services. Front-end is developed in Angular 5
+                                and the backend in Python which takes care of all APIs and automation.
+                                Responsibilities:
+                                Design and brainstorm front-end solutions to map business requirements.
+                                Develop user interactive, dynamic, modularised, and reusable components.
+                                Test and deploy the application. Provide end to end UI solution. <br>
+                                <br><br><strong>Technologies </strong> : Angular 5.x, Lodash, ES6 <br>
+                                <br><strong>Client </strong>: Apple
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6">
+                    <div class="card card-animation">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator angular-image" src="https://statscmain-10b33.kxcdn.com/wp-content/uploads/2018/05/Capture-2.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4"><strong>Game Changer Networks</strong><i class="material-icons right">more_vert</i></span>
+                            <p><a href="#" target="_blank"
+                                    class="black-text"><i class="fa fa-github"></i>Github</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Game Changer Networks<i
+                                    class="material-icons right">close</i></span>
+                            <p>A web application that provides measurable results of Community-driven influencer outreach. The project consisted of two applications: One for game changers built in Angular and another for the operation specialist built-in React.
+                                Responsibilities: 
+                                Developed modularized responsive application using lazy loading features and life cycle hooks.
+                                Implemented custom directives and components to create re-usable functionalities.
+                                Worked on a unit test framework, Jasmine, to test services and model level data and functionalities.
+                                <br>
+                                <br><strong>Technologies</strong>: Angular 6.x, React 16.x Bootstrap 4, SASS, HTML5, Lodash, Docker
+                                <br><strong>Client</strong>: Electronic Arts
+                                </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card card-animation">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator angular-image" src="https://eaassets-a.akamaihd.net/eahelp/assets/93.08-RELEASE/bundles/helpcenter/images/EA-Help-card.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4"><strong> OMEGA/EAHELP/TSM/AHQ Core Platform Project</strong><i class="material-icons right">more_vert</i></span>
+                            <p><a href="#" target="_blank"
+                                    class="black-text"><i class="fa fa-github"></i>Github</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">OMEGA/EAHELP/TSM/AHQ Core Platform Project<i
+                                    class="material-icons right">close</i></span>
+                            <p>Core platform project that involved maintenance and enhancement of Customer facing Help portal and advisor facing tool. It involves understanding of end to end architecture of various applications and how they interact with each other.
+                                Responsibilities:
+                                Maintain and enhance user interface given a problem statement that are compatible with existing features.
+                                Identify, prevent spam attacks, and mentor the team on best practices that could enhance user experience.
+                                Collaborated with business analysts and proposed multiple approaches to business use cases in situations our website had a dependency on third-party tools like Lithium, InMoment.
+                                Deployment owner of OMEGA and AHQ
+                                <br><strong> Technologies</strong> : Angular, Backbone, Salesforce Lightning, Javascript, HTML, SASS, Bootstrap, Underscore, Lithium, AWS 
+                                <br><strong>Client</strong>: Electronic Arts
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6">
+                    <div class="card card-animation">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator angular-image" src="https://www.fidelity.com/bin-public/060_www_fidelity_com/images/Viewpoints/PF/company_stock_2019_banner.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-darken-4"><strong>ECP( Equity Compensation Planning)</strong><i class="material-icons right">more_vert</i></span>
+                            <p><a href="#" target="_blank"
+                                    class="black-text"><i class="fa fa-github"></i>Github</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">ECP( Equity Compensation Planning)<i
+                                    class="material-icons right">close</i></span>
+                            <p>Single page web application designed for financial representatives. It generates detailed historical information on all public and private shares of its customers and creates an analysis report. Project involves OAuth 2.0 protocol for authorization.
+                                Responsibilities:
+                                Design and implementation of single-page web application using Angular, Bootstrap, HTML, CSS3.
+                                Created stock analysis report, depicted by various interactive charts like donut-chart, simple and stacked bar-charts, line-charts using HighCharts.
+                                Led the frontend team and reviewed all UI code change before deployment. 
+                                <br>
+                                <br><strong> Technologies</strong> : AngularJs 1.5.5, NodeJs, Bootstrap,HTML, CSS, SASS, Lodash, Highcharts
+                                <br><strong>Client</strong>:  Fidelity Investments
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

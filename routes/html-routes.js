@@ -34,6 +34,11 @@ module.exports = function (app) {
         res.sendFile(path.join(__dirname, "../public/reactProjects.html"));
     });
 
+    // loads angular projects page 
+    app.get("/angular", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/angularProjects.html"));
+    });
+
     // loads fs projects page 
     app.get("/fullstack", function (req, res) {
         res.sendFile(path.join(__dirname, "../public/fsProjects.html"));
