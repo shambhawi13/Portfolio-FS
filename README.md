@@ -36,7 +36,7 @@ When the user fills contact me form, following mail is sent as acknowledgement t
 
 ## Deployed Link
 
-[Live Hosted on](https://portfolio-shambhawi.herokuapp.com/)
+[Live Hosted on](https://shambhawi-8e4606f2bf38.herokuapp.com/)
 
 ## Authors
 
